@@ -6,6 +6,7 @@ import android.os.Handler
 import androidx.appcompat.app.AppCompatActivity
 
 class SplashActivity: AppCompatActivity() {
+    var isMain=false
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)
@@ -27,7 +28,6 @@ class SplashActivity: AppCompatActivity() {
 
         val openMainActivity=Intent(this,MainActivity::class.java)
         startActivity(openMainActivity)
-        finish()
 
     }
 }

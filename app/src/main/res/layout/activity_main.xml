@@ -139,6 +139,7 @@
         android:paddingHorizontal="10dp"
         android:paddingBottom="70dp">
         <Button
+            android:id="@+id/b_start_messaging"
             android:layout_width="350dp"
             android:layout_height="55dp"
             app:backgroundTint="@null"

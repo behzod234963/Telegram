@@ -15,6 +15,8 @@ class MainActivity : AppCompatActivity() {
 
     private fun initView() {
 
+        val openPhoneActivity=Intent(this,PhonenumberActivity::class.java)
+        startActivity(openPhoneActivity)
 
     }
 }
